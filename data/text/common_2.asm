@@ -4,13 +4,13 @@ _NoPhotoText::
 	done
 
 _EggPhotoText::
-	text "An EGG? My talent"
+	text "An Egg? My talent"
 	line "is worth more…"
 	done
 
 _NameRaterHelloText::
 	text "Hello, hello! I'm"
-	line "the NAME RATER."
+	line "the Name Rater."
 
 	para "I rate the names"
 	line "of #MON."
@@ -20,7 +20,7 @@ _NameRaterHelloText::
 	done
 
 _NameRaterWhichMonText::
-	text "Which #MON's"
+	text "Which #mon's"
 	line "nickname should I"
 	cont "rate for you?"
 	prompt
@@ -73,7 +73,7 @@ _NameRaterPerfectNameText::
 
 _NameRaterEggText::
 	text "Whoa… That's just"
-	line "an EGG."
+	line "an Egg."
 	done
 
 _NameRaterSameNameText::
@@ -88,7 +88,7 @@ _NameRaterSameNameText::
 
 _NameRaterNamedText::
 	text "All right. This"
-	line "#MON is now"
+	line "#mon is now"
 	cont "named @"
 	text_ram wStringBuffer1
 	text "."
@@ -104,14 +104,14 @@ _BoostedExpPointsText::
 	line "a boosted"
 	cont "@"
 	text_decimal wStringBuffer2, 2, 5
-	text " EXP. Points!"
+	text " Exp. Points!"
 	prompt
 
 _ExpPointsText::
 	text_start
 	line "@"
 	text_decimal wStringBuffer2, 2, 5
-	text " EXP. Points!"
+	text " Exp. Points!"
 	prompt
 
 _GoMonText::
@@ -179,7 +179,7 @@ _ContainedMoveText::
 	para "Teach @"
 	text_ram wStringBuffer2
 	text_start
-	line "to a #MON?"
+	line "to a #mon?"
 	done
 
 _TMHMNotCompatibleText::
@@ -207,8 +207,8 @@ _MysteryGiftCommErrorText::
 	prompt
 
 _RetrieveMysteryGiftText::
-	text "Must retrieve GIFT"
-	line "at #MON CENTER."
+	text "Must retrieve gift"
+	line "at #mon Center."
 	prompt
 
 _YourFriendIsNotReadyText::
@@ -218,11 +218,11 @@ _YourFriendIsNotReadyText::
 
 _MysteryGiftFiveADayText::
 	text "Sorry--only five"
-	line "GIFTS a day."
+	line "gifts a day."
 	prompt
 
 _MysteryGiftOneADayText::
-	text "Sorry. One GIFT"
+	text "Sorry. One gift"
 	line "a day per person."
 	prompt
 
@@ -246,7 +246,7 @@ _MysteryGiftSentHomeText::
 	prompt
 
 _BadgeRequiredText::
-	text "Sorry! A new BADGE"
+	text "Sorry! A new Badge"
 	line "is required."
 	prompt
 
@@ -258,16 +258,16 @@ _CantUseItemText::
 _UseCutText::
 	text_ram wStringBuffer2
 	text " used"
-	line "CUT!"
+	line "Cut!"
 	prompt
 
 _CutNothingText::
 	text "There's nothing to"
-	line "CUT here."
+	line "cut here."
 	prompt
 
 _BlindingFlashText::
-	text "A blinding FLASH"
+	text "A blinding flash"
 	line "lights the area!@"
 	text_promptbutton
 	text_end
@@ -275,28 +275,28 @@ _BlindingFlashText::
 _UsedSurfText::
 	text_ram wStringBuffer2
 	text " used"
-	line "SURF!"
+	line "Surf!"
 	done
 
 _CantSurfText::
-	text "You can't SURF"
+	text "You can't surf"
 	line "here."
 	prompt
 
 _AlreadySurfingText::
 	text "You're already"
-	line "SURFING."
+	line "surfing."
 	prompt
 
 _AskSurfText::
 	text "The water is calm."
-	line "Want to SURF?"
+	line "Want to surf?"
 	done
 
 _UseWaterfallText::
 	text_ram wStringBuffer2
 	text " used"
-	line "WATERFALL!"
+	line "Waterfall!"
 	done
 
 _HugeWaterfallText::
@@ -306,18 +306,18 @@ _HugeWaterfallText::
 
 _AskWaterfallText::
 	text "Do you want to use"
-	line "WATERFALL?"
+	line "Waterfall?"
 	done
 
 _UseDigText::
 	text_ram wStringBuffer2
 	text " used"
-	line "DIG!"
+	line "Dig!"
 	done
 
 _UseEscapeRopeText::
 	text "<PLAYER> used an"
-	line "ESCAPE ROPE."
+	line "Escape Rope."
 	done
 
 _CantUseDigText::
@@ -327,7 +327,7 @@ _CantUseDigText::
 
 _TeleportReturnText::
 	text "Return to the last"
-	line "#MON CENTER."
+	line "#mon Center."
 	done
 
 _CantUseTeleportText::
@@ -338,14 +338,14 @@ _CantUseTeleportText::
 	done
 
 _AlreadyUsingStrengthText::
-	text "A #MON is using"
-	line "STRENGTH already."
+	text "A #mon is using"
+	line "Strength already."
 	prompt
 
 _UseStrengthText::
 	text_ram wStringBuffer2
 	text " used"
-	line "STRENGTH!"
+	line "Strength!"
 	done
 
 _MoveBoulderText::
@@ -355,11 +355,11 @@ _MoveBoulderText::
 	prompt
 
 _AskStrengthText::
-	text "A #MON may be"
+	text "A #mon may be"
 	line "able to move this."
 
 	para "Want to use"
-	line "STRENGTH?"
+	line "Strength?"
 	done
 
 _BouldersMoveText::
@@ -368,21 +368,21 @@ _BouldersMoveText::
 	done
 
 _BouldersMayMoveText::
-	text "A #MON may be"
+	text "A #mon may be"
 	line "able to move this."
 	done
 
 _UseWhirlpoolText::
 	text_ram wStringBuffer2
 	text " used"
-	line "WHIRLPOOL!"
+	line "Whirlpool!"
 	prompt
 
 _MayPassWhirlpoolText::
 	text "It's a vicious"
 	line "whirlpool!"
 
-	para "A #MON may be"
+	para "A #mon may be"
 	line "able to pass it."
 	done
 
@@ -391,13 +391,13 @@ _AskWhirlpoolText::
 	line "the way."
 
 	para "Want to use"
-	line "WHIRLPOOL?"
+	line "Whirlpool?"
 	done
 
 _UseHeadbuttText::
 	text_ram wStringBuffer2
 	text " did a"
-	line "HEADBUTT!"
+	line "headbutt!"
 	prompt
 
 _HeadbuttNothingText::
@@ -405,21 +405,21 @@ _HeadbuttNothingText::
 	done
 
 _AskHeadbuttText::
-	text "A #MON could be"
+	text "A #mon could be"
 	line "in this tree."
 
-	para "Want to HEADBUTT"
+	para "Want to headbutt"
 	line "it?"
 	done
 
 _UseRockSmashText::
 	text_ram wStringBuffer2
 	text " used"
-	line "ROCK SMASH!"
+	line "Rock Smash!"
 	prompt
 
 _MaySmashText::
-	text "Maybe a #MON"
+	text "Maybe a #mon"
 	line "can break this."
 	done
 
@@ -427,8 +427,8 @@ _AskRockSmashText::
 	text "This rock looks"
 	line "breakable."
 
-	para "Want to use ROCK"
-	line "SMASH?"
+	para "Want to use Rock"
+	line "Smash?"
 	done
 
 _RodBiteText::
@@ -461,14 +461,14 @@ _GotOffBikeText::
 
 _AskCutText::
 	text "This tree can be"
-	line "CUT!"
+	line "cut!"
 
-	para "Want to use CUT?"
+	para "Want to use Cut?"
 	done
 
 _CanCutText::
 	text "This tree can be"
-	line "CUT!"
+	line "cut!"
 	done
 
 _FoundItemText::
@@ -486,21 +486,24 @@ _CantCarryItemText::
 
 _WhitedOutText::
 	text "<PLAYER> is out of"
-	line "useable #MON!"
+	line "useable #mon!"
 
 	para "<PLAYER> whited"
 	line "out!"
 	done
 
 _ItemfinderItemNearbyText::
-	text "Yes! ITEMFINDER"
-	line "indicates there's"
-	cont "an item nearby."
+	text "Yes! The Dowsing"
+	line "MCHN indicates"
+
+	para "there's an item"
+	line "nearby."
 	prompt
 
 _ItemfinderNopeText::
-	text "Nope! ITEMFINDER"
-	line "isn't responding."
+	text "Nope! The Dowsing"
+	line "MCHN isn't respond-"
+	cont "ing."
 	prompt
 
 _PoisonFaintText::
@@ -512,7 +515,7 @@ _PoisonFaintText::
 _UseSweetScentText::
 	text_ram wStringBuffer3
 	text " used"
-	line "SWEET SCENT!"
+	line "Sweet Scent!"
 	done
 
 _SweetScentNothingText::
@@ -529,12 +532,12 @@ _SquirtbottleNothingText::
 	done
 
 _UseSacredAshText::
-	text "<PLAYER>'s #MON"
+	text "<PLAYER>'s #mon"
 	line "were all healed!"
 	done
 
 _AnEggCantHoldAnItemText::
-	text "An EGG can't hold"
+	text "An Egg can't hold"
 	line "an item."
 	prompt
 
@@ -549,25 +552,25 @@ _AskQuantityThrowAwayText::
 	text_start
 	line "@"
 	text_ram wStringBuffer2
-	text "(S)?"
+	text "(s)?"
 	done
 
 _ThrewAwayText::
 	text "Threw away"
 	line "@"
 	text_ram wStringBuffer2
-	text "(S)."
+	text "(s)."
 	prompt
 
 _OakThisIsntTheTimeText::
-	text "OAK: <PLAYER>!"
+	text "Oak: <PLAYER>!"
 	line "This isn't the"
 	cont "time to use that!"
 	prompt
 
 _YouDontHaveAMonText::
 	text "You don't have a"
-	line "#MON!"
+	line "#mon!"
 	prompt
 
 _RegisteredItemText::
@@ -692,7 +695,7 @@ _BreedClearboxText::
 _BreedEggHatchText::
 	text_ram wStringBuffer1
 	text " came"
-	line "out of its EGG!@"
+	line "out of its Egg!@"
 	sound_caught_mon
 	text_promptbutton
 	text_end
@@ -709,7 +712,7 @@ _LeftWithDayCareLadyText::
 	text_ram wBreedMon2Nickname
 	text_start
 	line "that was left with"
-	cont "the DAY-CARE LADY."
+	cont "the Day-Care Lady."
 	done
 
 _LeftWithDayCareManText::
@@ -717,7 +720,7 @@ _LeftWithDayCareManText::
 	text_ram wBreedMon1Nickname
 	text_start
 	line "that was left with"
-	cont "the DAY-CARE MAN."
+	cont "the Day-Care Man."
 	done
 
 _BreedBrimmingWithEnergyText::
@@ -754,7 +757,7 @@ _BreedShowsInterestText::
 	prompt
 
 _EmptyMailboxText::
-	text "There's no MAIL"
+	text "There's no Mail"
 	line "here."
 	prompt
 
