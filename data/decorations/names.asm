@@ -21,7 +21,7 @@ DecorationNames:
 	li "Big "
 	li "Feathery"
 	li "Pikachu"
-	li "PINK"
+	li "Pink"
 	li "Polkadot"
 	li "Red"
 	li "Blue"
