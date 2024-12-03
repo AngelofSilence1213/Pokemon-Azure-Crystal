@@ -68,5 +68,5 @@ TrainerClassNames::
 	li "Officer"
 	li "Rocket"
 	li "Mystery Man"
-	li "<PKMN> TRAINER"
+	li "<PKMN> Trainer"
 	assert_list_length NUM_TRAINER_CLASSES
