@@ -617,4 +617,4 @@ HOF_AnimatePlayerPic:
 	farjp ProfOaksPCRating
 
 .PlayTime:
-	db "PLAY TIME@"
+	db "Play Time@"
