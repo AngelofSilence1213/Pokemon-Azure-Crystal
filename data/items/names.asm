@@ -1,204 +1,204 @@
 ItemNames::
 	list_start ItemNames
-	li "BRIGHTPOWDER" ; 0001
-	li "TERU-SAMA"    ; 0002
-	li "MOON STONE"   ; 0003
-	li "ANTIDOTE"     ; 0004
-	li "BURN HEAL"    ; 0005
-	li "ICE HEAL"     ; 0006
-	li "AWAKENING"    ; 0007
-	li "PARLYZ HEAL"  ; 0008
-	li "FULL RESTORE" ; 0009
-	li "MAX POTION"   ; 000A
-	li "HYPER POTION" ; 000B
-	li "SUPER POTION" ; 000C
-	li "POTION"       ; 000D
-	li "ESCAPE ROPE"  ; 000E
-	li "REPEL"        ; 000F
-	li "MAX ELIXER"   ; 0010
-	li "FIRE STONE"   ; 0011
-	li "THUNDERSTONE" ; 0012
-	li "WATER STONE"  ; 0013
-	li "TERU-SAMA"    ; 0014
-	li "HP UP"        ; 0015
-	li "PROTEIN"      ; 0016
-	li "IRON"         ; 0017
-	li "CARBOS"       ; 0018
-	li "LUCKY PUNCH"  ; 0019
-	li "CALCIUM"      ; 001A
-	li "RARE CANDY"   ; 001B
-	li "X ACCURACY"   ; 001C
-	li "LEAF STONE"   ; 001D
-	li "METAL POWDER" ; 001E
-	li "NUGGET"       ; 001F
-	li "POKé DOLL"    ; 0020 VWF can't print "# DOLL"
-	li "FULL HEAL"    ; 0021
-	li "REVIVE"       ; 0022
-	li "MAX REVIVE"   ; 0023
-	li "GUARD SPEC."  ; 0024
-	li "SUPER REPEL"  ; 0025
-	li "MAX REPEL"    ; 0026
-	li "DIRE HIT"     ; 0027
-	li "TERU-SAMA"    ; 0028
-	li "FRESH WATER"  ; 0029
-	li "SODA POP"     ; 002A
-	li "LEMONADE"     ; 002B
-	li "X ATTACK"     ; 002C
-	li "TERU-SAMA"    ; 002D
-	li "X DEFEND"     ; 002E
-	li "X SPEED"      ; 002F
-	li "X SPECIAL"    ; 0030
-	li "TERU-SAMA"    ; 0031
-	li "EXP.SHARE"    ; 0032
-	li "SILVER LEAF"  ; 0033
-	li "PP UP"        ; 0034
-	li "ETHER"        ; 0035
-	li "MAX ETHER"    ; 0036
-	li "ELIXER"       ; 0037
-	li "MOOMOO MILK"  ; 0038
-	li "QUICK CLAW"   ; 0039
-	li "PSNCUREBERRY" ; 003A
-	li "GOLD LEAF"    ; 003B
-	li "SOFT SAND"    ; 003C
-	li "SHARP BEAK"   ; 003D
-	li "PRZCUREBERRY" ; 003E
-	li "BURNT BERRY"  ; 003F
-	li "ICE BERRY"    ; 0040
-	li "POISON BARB"  ; 0041
-	li "KING'S ROCK"  ; 0042
-	li "BITTER BERRY" ; 0043
-	li "MINT BERRY"   ; 0044
-	li "RED APRICORN" ; 0045
-	li "TINYMUSHROOM" ; 0046
-	li "BIG MUSHROOM" ; 0047
-	li "SILVERPOWDER" ; 0048
-	li "BLU APRICORN" ; 0049
-	li "TERU-SAMA"    ; 004A
-	li "AMULET COIN"  ; 004B
-	li "YLW APRICORN" ; 004C
-	li "GRN APRICORN" ; 004D
-	li "CLEANSE TAG"  ; 004E
-	li "MYSTIC WATER" ; 004F
-	li "TWISTEDSPOON" ; 0050
-	li "WHT APRICORN" ; 0051
-	li "BLACKBELT"    ; 0052
-	li "BLK APRICORN" ; 0053
-	li "TERU-SAMA"    ; 0054
-	li "PNK APRICORN" ; 0055
-	li "BLACKGLASSES" ; 0056
-	li "SLOWPOKETAIL" ; 0057
-	li "PINK BOW"     ; 0058
-	li "STICK"        ; 0059
-	li "SMOKE BALL"   ; 005A
-	li "NEVERMELTICE" ; 005B
-	li "MAGNET"       ; 005C
-	li "MIRACLEBERRY" ; 005D
-	li "PEARL"        ; 005E
-	li "BIG PEARL"    ; 005F
-	li "EVERSTONE"    ; 0060
-	li "SPELL TAG"    ; 0061
-	li "RAGECANDYBAR" ; 0062
-	li "MIRACLE SEED" ; 0063
-	li "THICK CLUB"   ; 0064
-	li "FOCUS BAND"   ; 0065
-	li "TERU-SAMA"    ; 0066
-	li "ENERGYPOWDER" ; 0067
-	li "ENERGY ROOT"  ; 0068
-	li "HEAL POWDER"  ; 0069
-	li "REVIVAL HERB" ; 006A
-	li "HARD STONE"   ; 006B
-	li "LUCKY EGG"    ; 006C
-	li "STARDUST"     ; 006D
-	li "STAR PIECE"   ; 006E
-	li "TERU-SAMA"    ; 006F
-	li "TERU-SAMA"    ; 0070
-	li "ZINC"         ; 0071
-	li "CHARCOAL"     ; 0072
-	li "BERRY JUICE"  ; 0073
-	li "SCOPE LENS"   ; 0074
-	li "TERU-SAMA"    ; 0076
-	li "TERU-SAMA"    ; 0075
-	li "METAL COAT"   ; 0077
-	li "DRAGON FANG"  ; 0078
-	li "TERU-SAMA"    ; 0079
-	li "LEFTOVERS"    ; 007A
-	li "TERU-SAMA"    ; 007D
-	li "TERU-SAMA"    ; 007B
-	li "TERU-SAMA"    ; 007C
-	li "MYSTERYBERRY" ; 007E
-	li "DRAGON SCALE" ; 007F
-	li "BERSERK GENE" ; 0080
-	li "TERU-SAMA"    ; 0083
-	li "TERU-SAMA"    ; 0081
-	li "TERU-SAMA"    ; 0082
-	li "SACRED ASH"   ; 0084
-	li "FLOWER MAIL"  ; 0085
-	li "TERU-SAMA"    ; 0086
-	li "LIGHT BALL"   ; 0087
-	li "NORMAL BOX"   ; 0088
-	li "GORGEOUS BOX" ; 0089
-	li "SUN STONE"    ; 008A
-	li "POLKADOT BOW" ; 008B
-	li "TERU-SAMA"    ; 008C
-	li "UP-GRADE"     ; 008D
-	li "BERRY"        ; 008E
-	li "GOLD BERRY"   ; 008F
-	li "TERU-SAMA"    ; 0091
-	li "TERU-SAMA"    ; 0090
-	li "BRICK PIECE"  ; 0092
-	li "SURF MAIL"    ; 0093
-	li "LITEBLUEMAIL" ; 0094
-	li "PORTRAITMAIL" ; 0095
-	li "LOVELY MAIL"  ; 0096
-	li "EON MAIL"     ; 0097
-	li "MORPH MAIL"   ; 0098
-	li "BLUESKY MAIL" ; 0099
-	li "MUSIC MAIL"   ; 009A
-	li "MIRAGE MAIL"  ; 009B
-	li "TERU-SAMA"    ; 009F
-	li "TERU-SAMA"    ; 009C
-	li "TERU-SAMA"    ; 009D
-	li "TERU-SAMA"    ; 009E
+	li "BrightPowder" ; 0001
+	li "Teru-sama"    ; 0002
+	li "Moon Stone"   ; 0003
+	li "Antidote"     ; 0004
+	li "Burn Heal"    ; 0005
+	li "Ice Heal"     ; 0006
+	li "Awakening"    ; 0007
+	li "Parlyz Heal"  ; 0008
+	li "Full Restore" ; 0009
+	li "Max Potion"   ; 000A
+	li "Hyper Potion" ; 000B
+	li "Super Potion" ; 000C
+	li "Potion"       ; 000D
+	li "Escape Rope"  ; 000E
+	li "Repel"        ; 000F
+	li "Max Elixir"   ; 0010
+	li "Fire Stone"   ; 0011
+	li "ThunderStone" ; 0012
+	li "Water Stone"  ; 0013
+	li "Teru-sama"    ; 0014
+	li "HP Up"        ; 0015
+	li "Protein"      ; 0016
+	li "Iron"         ; 0017
+	li "Carbos"       ; 0018
+	li "Lucky Punch"  ; 0019
+	li "Calcium"      ; 001A
+	li "Rare Candy"   ; 001B
+	li "X Accuracy"   ; 001C
+	li "Leaf Stone"   ; 001D
+	li "Metal Powder" ; 001E
+	li "Nugget"       ; 001F
+	li "Poké Doll"    ; 0020 VWF can't print "# Doll"
+	li "Full Heal"    ; 0021
+	li "Revive"       ; 0022
+	li "Max Revive"   ; 0023
+	li "Guard Spec."  ; 0024
+	li "Super Repel"  ; 0025
+	li "Max Repel"    ; 0026
+	li "Dire Hit"     ; 0027
+	li "Teru-sama"    ; 0028
+	li "Fresh Water"  ; 0029
+	li "Soda Pop"     ; 002A
+	li "Lemonade"     ; 002B
+	li "X Attack"     ; 002C
+	li "Teru-sama"    ; 002D
+	li "X Defend"     ; 002E
+	li "X Speed"      ; 002F
+	li "X Special"    ; 0030
+	li "Teru-sama"    ; 0031
+	li "Exp.Share"    ; 0032
+	li "Silver Leaf"  ; 0033
+	li "PP Up"        ; 0034
+	li "Ether"        ; 0035
+	li "Max Ether"    ; 0036
+	li "Elixir"       ; 0037
+	li "Moomoo Milk"  ; 0038
+	li "Quick Claw"   ; 0039
+	li "Pecha Berry" ; 003A
+	li "Gold Leaf"    ; 003B
+	li "Soft Sand"    ; 003C
+	li "Sharp Beak"   ; 003D
+	li "Cheri Berry" ; 003E
+	li "Aspear Berry"  ; 003F
+	li "Rawst Berry"    ; 0040
+	li "Poison Barb"  ; 0041
+	li "King's Rock"  ; 0042
+	li "Persim Berry" ; 0043
+	li "Chesto Berry"   ; 0044
+	li "Red Apricorn" ; 0045
+	li "TinyMushroom" ; 0046
+	li "Big Mushroom" ; 0047
+	li "SilverPowder" ; 0048
+	li "Blu Apricorn" ; 0049
+	li "Teru-sama"    ; 004A
+	li "Amulet Coin"  ; 004B
+	li "Ylw Apricorn" ; 004C
+	li "Grn ApricorN" ; 004D
+	li "Cleanse Tag"  ; 004E
+	li "Mystic Water" ; 004F
+	li "TwistedSpoon" ; 0050
+	li "Wht Apricorn" ; 0051
+	li "Black Belt"    ; 0052
+	li "Blk Apricorn" ; 0053
+	li "Teru-sama"    ; 0054
+	li "Pnk Apricorn" ; 0055
+	li "BlackGlasses" ; 0056
+	li "SlowpokeTail" ; 0057
+	li "Silk Scarf"     ; 0058
+	li "Stick"        ; 0059
+	li "Smoke Ball"   ; 005A
+	li "NeverMeltIce" ; 005B
+	li "Magnet"       ; 005C
+	li "Lum Berry" ; 005D
+	li "Pearl"        ; 005E
+	li "Big Pearl"    ; 005F
+	li "Everstone"    ; 0060
+	li "Spell Tag"    ; 0061
+	li "RageCandyBar" ; 0062
+	li "Miracle Seed" ; 0063
+	li "Thick Club"   ; 0064
+	li "Focus Band"   ; 0065
+	li "Teru-sama"    ; 0066
+	li "EnergyPowder" ; 0067
+	li "Energy Root"  ; 0068
+	li "Heal Powder"  ; 0069
+	li "Revival Herb" ; 006A
+	li "Hard Stone"   ; 006B
+	li "Lucky Egg"    ; 006C
+	li "Stardust"     ; 006D
+	li "Star Piece"   ; 006E
+	li "Teru-sama"    ; 006F
+	li "Teru-sama"    ; 0070
+	li "Zinc"         ; 0071
+	li "Charcoal"     ; 0072
+	li "Berry Juice"  ; 0073
+	li "Scope Lens"   ; 0074
+	li "Teru-sama"    ; 0076
+	li "Teru-sama"    ; 0075
+	li "Metal Coat"   ; 0077
+	li "Dragon Fang"  ; 0078
+	li "Teru-sama"    ; 0079
+	li "Leftovers"    ; 007A
+	li "Teru-sama"    ; 007D
+	li "Teru-sama"    ; 007B
+	li "Teru-sama"    ; 007C
+	li "Leppa Berry" ; 007E
+	li "Dragon Scale" ; 007F
+	li "Berserk Gene" ; 0080
+	li "Teru-sama"    ; 0083
+	li "Teru-sama"    ; 0081
+	li "Teru-sama"    ; 0082
+	li "Sacred Ash"   ; 0084
+	li "Flower Mail"  ; 0085
+	li "Teru-sama"    ; 0086
+	li "Light Ball"   ; 0087
+	li "Normal Box"   ; 0088
+	li "Gorgeous Box" ; 0089
+	li "Sun Stone"    ; 008A
+	li "Polkadot Bow" ; 008B
+	li "Teru-sama"    ; 008C
+	li "Upgrade"     ; 008D
+	li "Oran Berry"        ; 008E
+	li "Sitrus Berry"   ; 008F
+	li "Teru-sama"    ; 0091
+	li "Teru-sama"    ; 0090
+	li "Brick Piece"  ; 0092
+	li "Surf Mail"    ; 0093
+	li "LiteBlueMail" ; 0094
+	li "PortraitMail" ; 0095
+	li "Lovely Mail"  ; 0096
+	li "Eon Mail"     ; 0097
+	li "Morph Mail"   ; 0098
+	li "BlueSky Mail" ; 0099
+	li "Music Mail"   ; 009A
+	li "Mirage Mail"  ; 009B
+	li "Teru-sama"    ; 009F
+	li "Teru-sama"    ; 009C
+	li "Teru-sama"    ; 009D
+	li "Teru-sama"    ; 009E
 	assert_list_length NUM_ITEM_POCKET
 
 KeyItemNames::
 	list_start KeyItemNames
-	li "BICYCLE"      ; 0100
-	li "COIN CASE"    ; 0101
-	li "ITEMFINDER"   ; 0102
-	li "OLD ROD"      ; 0103
-	li "GOOD ROD"     ; 0104
-	li "SUPER ROD"    ; 0105
-	li "RED SCALE"    ; 0106
-	li "SECRETPOTION" ; 0107
-	li "S.S.TICKET"   ; 0108
-	li "MYSTERY EGG"  ; 0109
-	li "CLEAR BELL"   ; 010A
-	li "SILVER WING"  ; 010B
-	li "GS BALL"      ; 010C
-	li "BLUE CARD"    ; 010D
-	li "CARD KEY"     ; 010E
-	li "MACHINE PART" ; 010F
-	li "EGG TICKET"   ; 0110
-	li "LOST ITEM"    ; 0111
-	li "BASEMENT KEY" ; 0112
-	li "PASS"         ; 0113
-	li "SQUIRTBOTTLE" ; 0114
-	li "RAINBOW WING" ; 0115
+	li "Bicycle"      ; 0100
+	li "Coin Case"    ; 0101
+	li "Dowsing MCHN"   ; 0102
+	li "Old Rod"      ; 0103
+	li "Good Rod"     ; 0104
+	li "Super Rod"    ; 0105
+	li "Red Scale"    ; 0106
+	li "SecretPotion" ; 0107
+	li "S.S.Ticket"   ; 0108
+	li "Mystery Egg"  ; 0109
+	li "Clear Bell"   ; 010A
+	li "Silver Wing"  ; 010B
+	li "GS Ball"      ; 010C
+	li "Blue Card"    ; 010D
+	li "Card Key"     ; 010E
+	li "Machine Part" ; 010F
+	li "Egg Ticket"   ; 0110
+	li "Lost Item"    ; 0111
+	li "Basement Key" ; 0112
+	li "Pass"         ; 0113
+	li "SquirtBottle" ; 0114
+	li "Rainbow Wing" ; 0115
 	assert_list_length NUM_KEY_ITEM_POCKET
 
 BallNames::
 	list_start BallNames
-	li "MASTER BALL" ; 0200
-	li "ULTRA BALL"  ; 0201
-	li "GREAT BALL"  ; 0202
-	li "POKé BALL"   ; 0203 VWF can't print "# BALL"
-	li "HEAVY BALL"  ; 0204
-	li "LEVEL BALL"  ; 0205
-	li "LURE BALL"   ; 0206
-	li "FAST BALL"   ; 0207
-	li "FRIEND BALL" ; 0208
-	li "MOON BALL"   ; 0209
-	li "LOVE BALL"   ; 020A
-	li "PARK BALL"   ; 020B
+	li "Master Ball" ; 0200
+	li "Ultra Ball"  ; 0201
+	li "Great Ball"  ; 0202
+	li "Poké Ball"   ; 0203 VWF can't print "# Ball"
+	li "Heavy Ball"  ; 0204
+	li "Level Ball"  ; 0205
+	li "Lure Ball"   ; 0206
+	li "Fast Ball"   ; 0207
+	li "Friend Ball" ; 0208
+	li "Moon Ball"   ; 0209
+	li "Love Ball"   ; 020A
+	li "Sport Ball"   ; 020B
 	assert_list_length NUM_BALL_ITEM_POCKET
