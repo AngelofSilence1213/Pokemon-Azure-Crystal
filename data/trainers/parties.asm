@@ -11,7 +11,7 @@ SECTION "Enemy Trainer Parties 1", ROMX
 
 FalknerGroup:
 	next_list_item ; FALKNER (1)
-	db "FALKNER@", TRAINERTYPE_MOVES
+	db "Falkner@", TRAINERTYPE_MOVES
 	db 7
 	dw PIDGEY
 	dw TACKLE, MUD_SLAP, NO_MOVE, NO_MOVE
@@ -24,7 +24,7 @@ FalknerGroup:
 
 WhitneyGroup:
 	next_list_item ; WHITNEY (1)
-	db "WHITNEY@", TRAINERTYPE_MOVES
+	db "Whitney@", TRAINERTYPE_MOVES
 	db 18
 	dw CLEFAIRY
 	dw DOUBLESLAP, MIMIC, ENCORE, METRONOME
@@ -37,7 +37,7 @@ WhitneyGroup:
 
 BugsyGroup:
 	next_list_item ; BUGSY (1)
-	db "BUGSY@", TRAINERTYPE_MOVES
+	db "Bugsy@", TRAINERTYPE_MOVES
 	db 14
 	dw METAPOD
 	dw TACKLE, STRING_SHOT, HARDEN, NO_MOVE
@@ -53,7 +53,7 @@ BugsyGroup:
 
 MortyGroup:
 	next_list_item ; MORTY (1)
-	db "MORTY@", TRAINERTYPE_MOVES
+	db "Morty@", TRAINERTYPE_MOVES
 	db 21
 	dw GASTLY
 	dw LICK, SPITE, MEAN_LOOK, CURSE
@@ -72,7 +72,7 @@ MortyGroup:
 
 PryceGroup:
 	next_list_item ; PRYCE (1)
-	db "PRYCE@", TRAINERTYPE_MOVES
+	db "Pryce@", TRAINERTYPE_MOVES
 	db 27
 	dw SEEL
 	dw HEADBUTT, ICY_WIND, AURORA_BEAM, REST
@@ -88,7 +88,7 @@ PryceGroup:
 
 JasmineGroup:
 	next_list_item ; JASMINE (1)
-	db "JASMINE@", TRAINERTYPE_MOVES
+	db "Jasmine@", TRAINERTYPE_MOVES
 	db 30
 	dw MAGNEMITE
 	dw THUNDERBOLT, SUPERSONIC, SONICBOOM, THUNDER_WAVE
@@ -104,7 +104,7 @@ JasmineGroup:
 
 ChuckGroup:
 	next_list_item ; CHUCK (1)
-	db "CHUCK@", TRAINERTYPE_MOVES
+	db "Chuck@", TRAINERTYPE_MOVES
 	db 27
 	dw PRIMEAPE
 	dw LEER, RAGE, KARATE_CHOP, FURY_SWIPES
@@ -117,7 +117,7 @@ ChuckGroup:
 
 ClairGroup:
 	next_list_item ; CLAIR (1)
-	db "CLAIR@", TRAINERTYPE_MOVES
+	db "Clair@", TRAINERTYPE_MOVES
 	db 37
 	dw DRAGONAIR
 	dw THUNDER_WAVE, SURF, SLAM, DRAGONBREATH
@@ -360,7 +360,7 @@ PokemonProfGroup:
 
 WillGroup:
 	next_list_item ; WILL (1)
-	db "WILL@", TRAINERTYPE_MOVES
+	db "Will@", TRAINERTYPE_MOVES
 	db 40
 	dw XATU
 	dw QUICK_ATTACK, FUTURE_SIGHT, CONFUSE_RAY, PSYCHIC_M
@@ -382,7 +382,7 @@ WillGroup:
 
 PKMNTrainerGroup:
 	next_list_item ; CAL (1)
-	db "CAL@", TRAINERTYPE_NORMAL
+	db "Cal@", TRAINERTYPE_NORMAL
 	db 10
 	dw CHIKORITA
 	db 10
@@ -392,7 +392,7 @@ PKMNTrainerGroup:
 	db -1 ; end
 
 	next_list_item ; CAL (2)
-	db "CAL@", TRAINERTYPE_NORMAL
+	db "Cal@", TRAINERTYPE_NORMAL
 	db 30
 	dw BAYLEEF
 	db 30
@@ -402,7 +402,7 @@ PKMNTrainerGroup:
 	db -1 ; end
 
 	next_list_item ; CAL (3)
-	db "CAL@", TRAINERTYPE_NORMAL
+	db "Cal@", TRAINERTYPE_NORMAL
 	db 50
 	dw MEGANIUM
 	db 50
@@ -415,7 +415,7 @@ PKMNTrainerGroup:
 
 BrunoGroup:
 	next_list_item ; BRUNO (1)
-	db "BRUNO@", TRAINERTYPE_MOVES
+	db "Bruno@", TRAINERTYPE_MOVES
 	db 42
 	dw HITMONTOP
 	dw PURSUIT, QUICK_ATTACK, DIG, DETECT
@@ -437,7 +437,7 @@ BrunoGroup:
 
 KarenGroup:
 	next_list_item ; KAREN (1)
-	db "KAREN@", TRAINERTYPE_MOVES
+	db "Karen@", TRAINERTYPE_MOVES
 	db 42
 	dw UMBREON
 	dw SAND_ATTACK, CONFUSE_RAY, FAINT_ATTACK, MEAN_LOOK
@@ -459,7 +459,7 @@ KarenGroup:
 
 KogaGroup:
 	next_list_item ; KOGA (1)
-	db "KOGA@", TRAINERTYPE_MOVES
+	db "Koga@", TRAINERTYPE_MOVES
 	db 40
 	dw ARIADOS
 	dw DOUBLE_TEAM, SPIDER_WEB, BATON_PASS, GIGA_DRAIN
@@ -481,7 +481,7 @@ KogaGroup:
 
 ChampionGroup:
 	next_list_item ; CHAMPION (1)
-	db "LANCE@", TRAINERTYPE_MOVES
+	db "Lance@", TRAINERTYPE_MOVES
 	db 44
 	dw GYARADOS
 	dw FLAIL, RAIN_DANCE, SURF, HYPER_BEAM
@@ -506,7 +506,7 @@ ChampionGroup:
 
 BrockGroup:
 	next_list_item ; BROCK (1)
-	db "BROCK@", TRAINERTYPE_MOVES
+	db "Brock@", TRAINERTYPE_MOVES
 	db 41
 	dw GRAVELER
 	dw DEFENSE_CURL, ROCK_SLIDE, ROLLOUT, EARTHQUAKE
@@ -528,7 +528,7 @@ BrockGroup:
 
 MistyGroup:
 	next_list_item ; MISTY (1)
-	db "MISTY@", TRAINERTYPE_MOVES
+	db "Misty@", TRAINERTYPE_MOVES
 	db 42
 	dw GOLDUCK
 	dw SURF, DISABLE, PSYCH_UP, PSYCHIC_M
@@ -547,7 +547,7 @@ MistyGroup:
 
 LtSurgeGroup:
 	next_list_item ; LT_SURGE (1)
-	db "LT.SURGE@", TRAINERTYPE_MOVES
+	db "Lt.Surge@", TRAINERTYPE_MOVES
 	db 44
 	dw RAICHU
 	dw THUNDER_WAVE, QUICK_ATTACK, THUNDERBOLT, THUNDER
@@ -569,7 +569,7 @@ LtSurgeGroup:
 
 ScientistGroup:
 	next_list_item ; SCIENTIST (1)
-	db "ROSS@", TRAINERTYPE_NORMAL
+	db "Ross@", TRAINERTYPE_NORMAL
 	db 22
 	dw KOFFING
 	db 22
@@ -577,13 +577,13 @@ ScientistGroup:
 	db -1 ; end
 
 	next_list_item ; SCIENTIST (2)
-	db "MITCH@", TRAINERTYPE_NORMAL
+	db "Mitch@", TRAINERTYPE_NORMAL
 	db 24
 	dw DITTO
 	db -1 ; end
 
 	next_list_item ; SCIENTIST (3)
-	db "JED@", TRAINERTYPE_NORMAL
+	db "Jed@", TRAINERTYPE_NORMAL
 	db 20
 	dw MAGNEMITE
 	db 20
@@ -593,7 +593,7 @@ ScientistGroup:
 	db -1 ; end
 
 	next_list_item ; SCIENTIST (4)
-	db "MARC@", TRAINERTYPE_NORMAL
+	db "Marc@", TRAINERTYPE_NORMAL
 	db 27
 	dw MAGNEMITE
 	db 27
@@ -603,7 +603,7 @@ ScientistGroup:
 	db -1 ; end
 
 	next_list_item ; SCIENTIST (5)
-	db "RICH@", TRAINERTYPE_MOVES
+	db "Rich@", TRAINERTYPE_MOVES
 	db 30
 	dw PORYGON
 	dw CONVERSION, CONVERSION2, RECOVER, TRI_ATTACK
@@ -613,7 +613,7 @@ ScientistGroup:
 
 ErikaGroup:
 	next_list_item ; ERIKA (1)
-	db "ERIKA@", TRAINERTYPE_MOVES
+	db "Erika@", TRAINERTYPE_MOVES
 	db 42
 	dw TANGELA
 	dw VINE_WHIP, BIND, GIGA_DRAIN, SLEEP_POWDER
@@ -632,13 +632,13 @@ ErikaGroup:
 
 YoungsterGroup:
 	next_list_item ; YOUNGSTER (1)
-	db "JOEY@", TRAINERTYPE_NORMAL
+	db "Joey@", TRAINERTYPE_NORMAL
 	db 4
 	dw RATTATA
 	db -1 ; end
 
 	next_list_item ; YOUNGSTER (2)
-	db "MIKEY@", TRAINERTYPE_NORMAL
+	db "Mikey@", TRAINERTYPE_NORMAL
 	db 2
 	dw PIDGEY
 	db 4
@@ -646,7 +646,7 @@ YoungsterGroup:
 	db -1 ; end
 
 	next_list_item ; YOUNGSTER (3)
-	db "ALBERT@", TRAINERTYPE_NORMAL
+	db "Albert@", TRAINERTYPE_NORMAL
 	db 6
 	dw RATTATA
 	db 8
@@ -654,13 +654,13 @@ YoungsterGroup:
 	db -1 ; end
 
 	next_list_item ; YOUNGSTER (4)
-	db "GORDON@", TRAINERTYPE_NORMAL
+	db "Gordon@", TRAINERTYPE_NORMAL
 	db 10
 	dw WOOPER
 	db -1 ; end
 
 	next_list_item ; YOUNGSTER (5)
-	db "SAMUEL@", TRAINERTYPE_NORMAL
+	db "Samuel@", TRAINERTYPE_NORMAL
 	db 7
 	dw RATTATA
 	db 10
@@ -672,7 +672,7 @@ YoungsterGroup:
 	db -1 ; end
 
 	next_list_item ; YOUNGSTER (6)
-	db "IAN@", TRAINERTYPE_NORMAL
+	db "Ian@", TRAINERTYPE_NORMAL
 	db 10
 	dw MANKEY
 	db 12
@@ -680,26 +680,26 @@ YoungsterGroup:
 	db -1 ; end
 
 	next_list_item ; YOUNGSTER (7)
-	db "JOEY@", TRAINERTYPE_NORMAL
+	db "Joey@", TRAINERTYPE_NORMAL
 	db 15
 	dw RATTATA
 	db -1 ; end
 
 	next_list_item ; YOUNGSTER (8)
-	db "JOEY@", TRAINERTYPE_MOVES
+	db "Joey@", TRAINERTYPE_MOVES
 	db 21
 	dw RATICATE
 	dw TAIL_WHIP, QUICK_ATTACK, HYPER_FANG, SCARY_FACE
 	db -1 ; end
 
 	next_list_item ; YOUNGSTER (9)
-	db "WARREN@", TRAINERTYPE_NORMAL
+	db "Warren@", TRAINERTYPE_NORMAL
 	db 35
 	dw FEAROW
 	db -1 ; end
 
 	next_list_item ; YOUNGSTER (10)
-	db "JIMMY@", TRAINERTYPE_NORMAL
+	db "Jimmy@", TRAINERTYPE_NORMAL
 	db 33
 	dw RATICATE
 	db 33
@@ -707,13 +707,13 @@ YoungsterGroup:
 	db -1 ; end
 
 	next_list_item ; YOUNGSTER (11)
-	db "OWEN@", TRAINERTYPE_NORMAL
+	db "Owen@", TRAINERTYPE_NORMAL
 	db 35
 	dw GROWLITHE
 	db -1 ; end
 
 	next_list_item ; YOUNGSTER (12)
-	db "JASON@", TRAINERTYPE_NORMAL
+	db "Jason@", TRAINERTYPE_NORMAL
 	db 33
 	dw SANDSLASH
 	db 33
@@ -721,14 +721,14 @@ YoungsterGroup:
 	db -1 ; end
 
 	next_list_item ; YOUNGSTER (13)
-	db "JOEY@", TRAINERTYPE_MOVES
+	db "Joey@", TRAINERTYPE_MOVES
 	db 30
 	dw RATICATE
 	dw TAIL_WHIP, QUICK_ATTACK, HYPER_FANG, PURSUIT
 	db -1 ; end
 
 	next_list_item ; YOUNGSTER (14)
-	db "JOEY@", TRAINERTYPE_MOVES
+	db "Joey@", TRAINERTYPE_MOVES
 	db 37
 	dw RATICATE
 	dw HYPER_BEAM, QUICK_ATTACK, HYPER_FANG, PURSUIT
@@ -740,7 +740,7 @@ SECTION "Enemy Trainer Parties 2", ROMX
 
 SchoolboyGroup:
 	next_list_item ; SCHOOLBOY (1)
-	db "JACK@", TRAINERTYPE_NORMAL
+	db "Jack@", TRAINERTYPE_NORMAL
 	db 12
 	dw ODDISH
 	db 15
@@ -748,7 +748,7 @@ SchoolboyGroup:
 	db -1 ; end
 
 	next_list_item ; SCHOOLBOY (2)
-	db "KIPP@", TRAINERTYPE_NORMAL
+	db "Kipp@", TRAINERTYPE_NORMAL
 	db 27
 	dw VOLTORB
 	db 27
@@ -760,13 +760,13 @@ SchoolboyGroup:
 	db -1 ; end
 
 	next_list_item ; SCHOOLBOY (3)
-	db "ALAN@", TRAINERTYPE_NORMAL
+	db "Alan@", TRAINERTYPE_NORMAL
 	db 16
 	dw TANGELA
 	db -1 ; end
 
 	next_list_item ; SCHOOLBOY (4)
-	db "JOHNNY@", TRAINERTYPE_NORMAL
+	db "Johnny@", TRAINERTYPE_NORMAL
 	db 29
 	dw BELLSPROUT
 	db 31
@@ -776,7 +776,7 @@ SchoolboyGroup:
 	db -1 ; end
 
 	next_list_item ; SCHOOLBOY (5)
-	db "DANNY@", TRAINERTYPE_NORMAL
+	db "Danny@", TRAINERTYPE_NORMAL
 	db 31
 	dw JYNX
 	db 31
@@ -786,7 +786,7 @@ SchoolboyGroup:
 	db -1 ; end
 
 	next_list_item ; SCHOOLBOY (6)
-	db "TOMMY@", TRAINERTYPE_NORMAL
+	db "Tommy@", TRAINERTYPE_NORMAL
 	db 32
 	dw XATU
 	db 34
@@ -794,13 +794,13 @@ SchoolboyGroup:
 	db -1 ; end
 
 	next_list_item ; SCHOOLBOY (7)
-	db "DUDLEY@", TRAINERTYPE_NORMAL
+	db "Dudley@", TRAINERTYPE_NORMAL
 	db 35
 	dw ODDISH
 	db -1 ; end
 
 	next_list_item ; SCHOOLBOY (8)
-	db "JOE@", TRAINERTYPE_NORMAL
+	db "Joe@", TRAINERTYPE_NORMAL
 	db 33
 	dw TANGELA
 	db 33
@@ -808,7 +808,7 @@ SchoolboyGroup:
 	db -1 ; end
 
 	next_list_item ; SCHOOLBOY (9)
-	db "BILLY@", TRAINERTYPE_NORMAL
+	db "Billy@", TRAINERTYPE_NORMAL
 	db 27
 	dw PARAS
 	db 27
@@ -820,13 +820,13 @@ SchoolboyGroup:
 	db -1 ; end
 
 	next_list_item ; SCHOOLBOY (10)
-	db "CHAD@", TRAINERTYPE_NORMAL
+	db "Chad@", TRAINERTYPE_NORMAL
 	db 19
 	dw MR__MIME
 	db -1 ; end
 
 	next_list_item ; SCHOOLBOY (11)
-	db "NATE@", TRAINERTYPE_NORMAL
+	db "Nate@", TRAINERTYPE_NORMAL
 	db 32
 	dw LEDIAN
 	db 32
@@ -834,7 +834,7 @@ SchoolboyGroup:
 	db -1 ; end
 
 	next_list_item ; SCHOOLBOY (12)
-	db "RICKY@", TRAINERTYPE_NORMAL
+	db "Ricky@", TRAINERTYPE_NORMAL
 	db 32
 	dw AIPOM
 	db 32
@@ -842,7 +842,7 @@ SchoolboyGroup:
 	db -1 ; end
 
 	next_list_item ; SCHOOLBOY (13)
-	db "JACK@", TRAINERTYPE_NORMAL
+	db "Jack@", TRAINERTYPE_NORMAL
 	db 14
 	dw ODDISH
 	db 17
@@ -850,7 +850,7 @@ SchoolboyGroup:
 	db -1 ; end
 
 	next_list_item ; SCHOOLBOY (14)
-	db "JACK@", TRAINERTYPE_NORMAL
+	db "Jack@", TRAINERTYPE_NORMAL
 	db 28
 	dw GLOOM
 	db 31
@@ -858,7 +858,7 @@ SchoolboyGroup:
 	db -1 ; end
 
 	next_list_item ; SCHOOLBOY (15)
-	db "ALAN@", TRAINERTYPE_NORMAL
+	db "Alan@", TRAINERTYPE_NORMAL
 	db 17
 	dw TANGELA
 	db 17
@@ -866,7 +866,7 @@ SchoolboyGroup:
 	db -1 ; end
 
 	next_list_item ; SCHOOLBOY (16)
-	db "ALAN@", TRAINERTYPE_NORMAL
+	db "Alan@", TRAINERTYPE_NORMAL
 	db 20
 	dw NATU
 	db 22
@@ -878,7 +878,7 @@ SchoolboyGroup:
 	db -1 ; end
 
 	next_list_item ; SCHOOLBOY (17)
-	db "CHAD@", TRAINERTYPE_NORMAL
+	db "Chad@", TRAINERTYPE_NORMAL
 	db 19
 	dw MR__MIME
 	db 19
@@ -886,7 +886,7 @@ SchoolboyGroup:
 	db -1 ; end
 
 	next_list_item ; SCHOOLBOY (18)
-	db "CHAD@", TRAINERTYPE_NORMAL
+	db "Chad@", TRAINERTYPE_NORMAL
 	db 27
 	dw MR__MIME
 	db 31
@@ -894,7 +894,7 @@ SchoolboyGroup:
 	db -1 ; end
 
 	next_list_item ; SCHOOLBOY (19)
-	db "JACK@", TRAINERTYPE_NORMAL
+	db "Jack@", TRAINERTYPE_NORMAL
 	db 30
 	dw GLOOM
 	db 33
@@ -904,7 +904,7 @@ SchoolboyGroup:
 	db -1 ; end
 
 	next_list_item ; SCHOOLBOY (20)
-	db "JACK@", TRAINERTYPE_MOVES
+	db "Jack@", TRAINERTYPE_MOVES
 	db 35
 	dw ELECTRODE
 	dw SCREECH, SONICBOOM, ROLLOUT, LIGHT_SCREEN
@@ -917,7 +917,7 @@ SchoolboyGroup:
 	db -1 ; end
 
 	next_list_item ; SCHOOLBOY (21)
-	db "ALAN@", TRAINERTYPE_NORMAL
+	db "Alan@", TRAINERTYPE_NORMAL
 	db 27
 	dw NATU
 	db 27
@@ -929,7 +929,7 @@ SchoolboyGroup:
 	db -1 ; end
 
 	next_list_item ; SCHOOLBOY (22)
-	db "ALAN@", TRAINERTYPE_MOVES
+	db "Alan@", TRAINERTYPE_MOVES
 	db 35
 	dw XATU
 	dw PECK, NIGHT_SHADE, SWIFT, FUTURE_SIGHT
@@ -945,7 +945,7 @@ SchoolboyGroup:
 	db -1 ; end
 
 	next_list_item ; SCHOOLBOY (23)
-	db "CHAD@", TRAINERTYPE_NORMAL
+	db "Chad@", TRAINERTYPE_NORMAL
 	db 30
 	dw MR__MIME
 	db 34
@@ -953,7 +953,7 @@ SchoolboyGroup:
 	db -1 ; end
 
 	next_list_item ; SCHOOLBOY (24)
-	db "CHAD@", TRAINERTYPE_MOVES
+	db "Chad@", TRAINERTYPE_MOVES
 	db 34
 	dw MR__MIME
 	dw PSYCHIC_M, LIGHT_SCREEN, REFLECT, ENCORE
@@ -966,7 +966,7 @@ SchoolboyGroup:
 
 BirdKeeperGroup:
 	next_list_item ; BIRD_KEEPER (1)
-	db "ROD@", TRAINERTYPE_NORMAL
+	db "Rod@", TRAINERTYPE_NORMAL
 	db 7
 	dw PIDGEY
 	db 7
@@ -974,7 +974,7 @@ BirdKeeperGroup:
 	db -1 ; end
 
 	next_list_item ; BIRD_KEEPER (2)
-	db "ABE@", TRAINERTYPE_NORMAL
+	db "Abe@", TRAINERTYPE_NORMAL
 	db 9
 	dw SPEAROW
 	db -1 ; end
