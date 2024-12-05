@@ -605,7 +605,7 @@ ExchangeBytes:
 	ret
 
 String_PleaseWait:
-	db "PLEASE WAIT!@"
+	db "Please wait!@"
 
 ClearLinkData:
 	ld hl, wLinkData
@@ -1921,7 +1921,7 @@ LinkTrade_TradeStatsMenu:
 	text_end
 
 .String_Stats_Trade:
-	db "STATS     TRADE@"
+	db "Stats     Trade@"
 
 .LinkAbnormalMonText:
 	text_far _LinkAbnormalMonText
@@ -2394,8 +2394,8 @@ InitTradeMenuDisplay_Delay:
 	jmp InitTradeMenuDisplay
 
 String_TradeCancel:
-	db   "TRADE"
-	next "CANCEL@"
+	db   "Trade"
+	next "Cancel@"
 
 LinkAskTradeForText:
 	text_far _LinkAskTradeForText
