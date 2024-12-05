@@ -102,7 +102,7 @@ InitTradeSpeciesList:
 	jmp PlaceString
 
 .CancelString:
-	db "CANCEL@"
+	db "Cancel@"
 
 _LoadTradeScreenBorderGFX:
 	jmp __LoadTradeScreenBorderGFX
@@ -150,7 +150,7 @@ PlaceWaitingTextAndSyncAndExchangeNybble:
 	jmp DelayFrames
 
 .Waiting:
-	db "WAITING..!@"
+	db "Waiting..!@"
 
 LinkTradeMenu:
 	call .MenuAction
