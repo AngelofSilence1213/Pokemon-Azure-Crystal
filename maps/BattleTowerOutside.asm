@@ -31,17 +31,17 @@ BattleTowerOutsideSign:
 	jumptext BattleTowerOutsideSignText
 
 BattleTowerOutsideYoungsterText:
-	text "Wow, the BATTLE"
-	line "TOWER is huge!"
+	text "Wow, the Battle"
+	line "Tower is huge!"
 
 	para "There must be many"
-	line "kinds of #MON"
+	line "kinds of #mon"
 	cont "in there!"
 	done
 
 BattleTowerOutsideBeautyText:
 	text "You can use only"
-	line "three #MON."
+	line "three #mon."
 
 	para "It's so hard to"
 	line "decide which three"
@@ -62,7 +62,7 @@ BattleTowerOutsideSailorText:
 	done
 
 BattleTowerOutsideSignText:
-	text "BATTLE TOWER"
+	text "Battle Tower"
 
 	para "Take the Ultimate"
 	line "Trainer Challenge!"
