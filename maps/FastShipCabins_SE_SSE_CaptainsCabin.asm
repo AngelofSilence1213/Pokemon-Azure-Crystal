@@ -250,7 +250,7 @@ SSAquaCaptainExhaustingText:
 
 SSAquaCaptainHowDoYouLikeText:
 	text "How do you like"
-	line "S.S.AQUA's ride?"
+	line "S.S.Aqua's ride?"
 
 	para "She practically"
 	line "skates across the"
@@ -294,7 +294,7 @@ SSAquaGrandpaTravellingText:
 	done
 
 SSAquaGranddaughterCaptainPlayWithMeText:
-	text "CAPTAIN, play with"
+	text "Captain, play with"
 	line "me, please?"
 
 	para "I'm bored! I want"
@@ -320,7 +320,7 @@ SSAquaGranddaughterWasPlayingMText:
 	text "Grandpa, here I"
 	line "am! I was playing"
 
-	para "with the CAPTAIN"
+	para "with the Captain"
 	line "and this guy!"
 	done
 
@@ -328,7 +328,7 @@ SSAquaGranddaughterWasPlayingFText:
 	text "Grandpa, here I"
 	line "am! I was playing"
 
-	para "with the CAPTAIN"
+	para "with the Captain"
 	line "and this big girl!"
 	done
 
@@ -400,30 +400,30 @@ PsychicRodneyBeatenText:
 
 PsychicRodneyAfterBattleText:
 	text "I get it. You can"
-	line "hear JOHTO's radio"
-	cont "on the FAST SHIP."
+	line "hear Johto's radio"
+	cont "on the Fast Ship."
 	done
 
 PokefanmJeremySeenText:
 	text "What do you think?"
-	line "My #MON are"
+	line "My #mon are"
 	cont "beautiful, yes?"
 	done
 
 PokefanmJeremyBeatenText:
 	text "Oh, no! My beauti-"
-	line "ful #MON!"
+	line "ful #mon!"
 	done
 
 PokefanmJeremyAfterBattleText:
 	text "I must go to the"
-	line "#MON SALON and"
+	line "#mon Salon and"
 	cont "fix them up nice!"
 	done
 
 PokefanfGeorgiaSeenText:
 	text "I'm going to shop"
-	line "at the DEPT.STORE"
+	line "at the Dept.Store"
 	cont "and then…"
 	done
 
@@ -434,13 +434,13 @@ PokefanfGeorgiaBeatenText:
 
 PokefanfGeorgiaAfterBattleText:
 	text "Oh, yes! I have to"
-	line "get my #MON out"
-	cont "of DAY-CARE!"
+	line "get my #mon out"
+	cont "of Day-Care!"
 	done
 
 SupernerdShawnSeenText:
 	text "What kinds of #"
-	line "BALLS do you have"
+	line "Balls do you have"
 	cont "with you?"
 	done
 
@@ -451,14 +451,14 @@ SupernerdShawnBeatenText:
 
 SupernerdShawnAfterBattleText:
 	text "You should use the"
-	line "right BALLS to fit"
+	line "right Balls to fit"
 	cont "the situation."
 	done
 
 SSAquaHasArrivedVermilionText:
-	text "FAST SHIP S.S.AQUA"
+	text "Fast Ship S.S.Aqua"
 	line "has arrived in"
-	cont "VERMILION CITY."
+	cont "Vermilion City."
 	done
 
 FastShipCabins_SE_SSE_CaptainsCabin_MapEvents:
