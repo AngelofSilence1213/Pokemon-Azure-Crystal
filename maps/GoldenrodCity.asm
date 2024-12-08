@@ -57,7 +57,7 @@ MoveTutorScript:
 	yesorno
 	iffalse .Refused
 	special DisplayCoinCaseBalance
-	writetext GoldenrodCityMoveTutorAsk4000CoinsOkayText
+	writetext GoldenrodCityMoveTutorAsk400CoinsOkayText
 	yesorno
 	iffalse .Refused2
 	checkcoins 400
@@ -492,7 +492,7 @@ GoldenrodCityMoveTutorAskTeachAMoveText:
 	line "new move?"
 	done
 
-GoldenrodCityMoveTutorAsk4000CoinsOkayText:
+GoldenrodCityMoveTutorAsk400CoinsOkayText:
 	text "It will cost you"
 	line "400 coins. Okay?"
 	done
