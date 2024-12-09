@@ -201,11 +201,11 @@ PlateauRivalLeavesMovement:
 	step_end
 
 IndigoPlateauPokecenter1FCooltrainerMText:
-	text "At the #MON"
-	line "LEAGUE, you'll get"
+	text "At the #mon"
+	line "League, you'll get"
 
 	para "tested by the"
-	line "ELITE FOUR."
+	line "Elite Four."
 
 	para "You have to beat"
 	line "them all. If you"
@@ -218,16 +218,16 @@ PlateauRivalText1:
 	text "Hold it."
 
 	para "You're going to"
-	line "take the #MON"
+	line "take the #mon"
 
-	para "LEAGUE challenge"
+	para "League challenge"
 	line "now?"
 
 	para "That's not going"
 	line "to happen."
 
 	para "My super-well-"
-	line "trained #MON"
+	line "trained #mon"
 
 	para "are going to pound"
 	line "you."
@@ -248,7 +248,7 @@ PlateauRivalText2:
 
 	para "I… I have to think"
 	line "more about my"
-	cont "#MON…"
+	cont "#mon…"
 
 	para "Humph! Try not to"
 	line "lose!"
@@ -261,23 +261,23 @@ PlateauRivalLoseText:
 	line "With my partners,"
 
 	para "I'm going to be"
-	line "the CHAMPION!"
+	line "the Champion!"
 	done
 
 TeleportGuyText1:
 	text "Ah! You're chal-"
-	line "lenging the ELITE"
+	line "lenging the Elite"
 
-	para "FOUR? Are you sure"
+	para "Four? Are you sure"
 	line "you're ready?"
 
 	para "If you need to"
 	line "train some more,"
 
-	para "my ABRA can help"
+	para "my Abra can help"
 	line "you."
 
-	para "It can TELEPORT"
+	para "It can Teleport"
 	line "you home."
 
 	para "Would you like to"
@@ -296,7 +296,7 @@ TeleportGuyNoText:
 	done
 
 AbraText:
-	text "ABRA: Aabra…"
+	text "Abra: Aabra…"
 	done
 
 IndigoPlateauPokecenter1F_MapEvents:
