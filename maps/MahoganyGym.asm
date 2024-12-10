@@ -194,7 +194,7 @@ PryceText_Impressed:
 
 Text_ReceivedGlacierBadge:
 	text "<PLAYER> received"
-	line "the GLACIER BADGE."
+	line "the Glacier Badge."
 	done
 
 PryceText_GlacierBadgeSpeech:
