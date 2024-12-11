@@ -283,6 +283,11 @@ SchoolboyDudleyBeatenText:
 	done
 
 SchoolboyDudleyAfterBattleText:
+LassEllenAfterBattleText:
+SchoolboyJoeAfterBattleText:
+LassLauraAfterBattleText:
+CamperLloydAfterBattleText:
+LassShannonAfterBattleText:
 	text "I did my best."
 	line "I have no regrets."
 	done
@@ -296,11 +301,6 @@ LassEllenBeatenText:
 	text "How could I lose?"
 	done
 
-LassEllenAfterBattleText:
-	text "I did my best."
-	line "I have no regrets."
-	done
-
 SchoolboyJoeSeenText:
 	text "Here's No. 3!"
 	line "I won't be easy."
@@ -308,11 +308,6 @@ SchoolboyJoeSeenText:
 
 SchoolboyJoeBeatenText:
 	text "Ow! Stomped flat!"
-	done
-
-SchoolboyJoeAfterBattleText:
-	text "I did my best."
-	line "I have no regrets."
 	done
 
 LassLauraSeenText:
@@ -324,11 +319,6 @@ LassLauraBeatenText:
 	text "I lost too…"
 	done
 
-LassLauraAfterBattleText:
-	text "I did my best."
-	line "I have no regrets."
-	done
-
 CamperLloydSeenText:
 	text "OK! I'm No. 5."
 	line "I'll stomp you!"
@@ -336,11 +326,6 @@ CamperLloydSeenText:
 
 CamperLloydBeatenText:
 	text "Whoa! Too much."
-	done
-
-CamperLloydAfterBattleText:
-	text "I did my best."
-	line "I have no regrets."
 	done
 
 LassShannonSeenText:
@@ -351,11 +336,6 @@ LassShannonSeenText:
 
 LassShannonBeatenText:
 	text "You're kidding."
-	done
-
-LassShannonAfterBattleText:
-	text "I did my best."
-	line "I have no regrets."
 	done
 
 SupernerdPatSeenText:
