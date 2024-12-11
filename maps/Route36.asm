@@ -410,26 +410,26 @@ Route36SuicuneMovement:
 
 UseSquirtbottleText:
 	text "It's a weird tree."
-	line "Use SQUIRTBOTTLE?"
+	line "Use SquirtBottle?"
 	done
 
 UsedSquirtbottleText:
 	text "<PLAYER> used the"
-	line "SQUIRTBOTTLE."
+	line "SquirtBottle."
 	done
 
 SudowoodoAttackedText:
 	text "The weird tree"
 	line "doesn't like the"
-	cont "SQUIRTBOTTLE!"
+	cont "SquirtBottle!"
 
 	para "The weird tree"
 	line "attacked!"
 	done
 
 FloriaText1:
-	text "I'm the FLOWER"
-	line "SHOP's FLORIA!"
+	text "I'm the Flower"
+	line "Shop's Floria!"
 
 	para "Listen, listen!"
 
@@ -440,7 +440,7 @@ FloriaText1:
 	line "jumped right up!"
 
 	para "It just has to be"
-	line "a #MON."
+	line "a #mon."
 
 	para "I bet it would be"
 	line "shocked out of its"
@@ -460,7 +460,7 @@ FloriaText2:
 	para "tree, she said"
 	line "it's dangerous."
 
-	para "If I beat WHITNEY,"
+	para "If I beat Whitney,"
 	line "I wonder if she'll"
 
 	para "lend me her water"
@@ -491,7 +491,7 @@ RockSmashGuyText2:
 
 RockSmashGuyText3:
 	text "That happens to be"
-	line "ROCK SMASH."
+	line "Rock Smash."
 
 	para "You can shatter"
 	line "rocks with just a"
@@ -507,7 +507,7 @@ RockSmashGuyText3:
 Route36LassText:
 	text "An odd tree is"
 	line "blocking the way"
-	cont "to GOLDENROD CITY."
+	cont "to Goldenrod City."
 
 	para "It's preventing"
 	line "me from shopping."
@@ -522,7 +522,7 @@ Route36LassText_ClearedSudowoodo:
 	cont "trace."
 
 	para "Oh! That tree was"
-	line "really a #MON?"
+	line "really a #mon?"
 	done
 
 PsychicMarkSeenText:
@@ -545,7 +545,7 @@ PsychicMarkAfterBattleText:
 SchoolboyAlan1SeenText:
 	text "Thanks to my stud-"
 	line "ies, I'm ready for"
-	cont "any #MON!"
+	cont "any #mon!"
 	done
 
 SchoolboyAlan1BeatenText:
@@ -563,10 +563,10 @@ SchoolboyAlanBooksText:
 	done
 
 MeetArthurText:
-	text "ARTHUR: Who are"
+	text "Arthur: Who are"
 	line "you?"
 
-	para "I'm ARTHUR of"
+	para "I'm Arthur of"
 	line "Thursday."
 	done
 
@@ -576,7 +576,7 @@ ArthurGivesGiftText:
 	done
 
 ArthurGaveGiftText:
-	text "ARTHUR: A #MON"
+	text "Arthur: A #mon"
 	line "that uses rock-"
 
 	para "type moves should"
@@ -587,7 +587,7 @@ ArthurGaveGiftText:
 	done
 
 ArthurThursdayText:
-	text "ARTHUR: I'm ARTHUR"
+	text "Arthur: I'm Arthur"
 	line "of Thursday. I'm"
 
 	para "the second son out"
@@ -595,24 +595,24 @@ ArthurThursdayText:
 	done
 
 ArthurNotThursdayText:
-	text "ARTHUR: Today's"
+	text "Arthur: Today's"
 	line "not Thursday. How"
 	cont "disappointing."
 	done
 
 Route36SignText:
-	text "ROUTE 36"
+	text "Route 36"
 	done
 
 RuinsOfAlphNorthSignText:
-	text "RUINS OF ALPH"
-	line "NORTH ENTRANCE"
+	text "Ruins of Alph"
+	line "North Entrance"
 	done
 
 Route36TrainerTips1Text:
-	text "TRAINER TIPS"
+	text "Trainer Tips"
 
-	para "#MON stats"
+	para "#mon stats"
 	line "vary--even within"
 	cont "the same species."
 
@@ -623,13 +623,13 @@ Route36TrainerTips1Text:
 	line "ences will become"
 
 	para "pronounced as the"
-	line "#MON grow."
+	line "#mon grow."
 	done
 
 Route36TrainerTips2Text:
-	text "TRAINER TIPS"
+	text "Trainer Tips"
 
-	para "Use DIG to return"
+	para "Use Dig to return"
 	line "to the entrance of"
 	cont "any place."
 
