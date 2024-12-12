@@ -903,57 +903,43 @@ endr
 	db HIGH(65280), 40
 
 LureBallMultiplier:
-; multiply catch rate by 3 if this is a fishing rod battle
+; multiply catch rate by 4 if this is a fishing rod battle
 	ld a, [wBattleType]
-	cp BATTLETYPE_FISH
-	ret nz
+    cp BATTLETYPE_FISH
+    ret nz
 
+    sla b
+    jr c, .max
+
+    sla b ; 4x
+    ret nc
+.max
+    ld b, $ff
+    ret
+
+MoonBallMultiplier:
+; is it night?
+	ld a, [wTimeOfDay]
+	cp NITE
+	jr z, .night_or_cave
+; or are we in a cave?
+	ld a, [wEnvironment]
+	cp CAVE
+	ret nz ; neither night nor cave
+
+.night_or_cave
+; b is the catch rate
+; a := b  b  b == b × 3
 	ld a, b
 	add a
 	jr c, .max
 
 	add b
-	jr nc, .done
-.max
-	ld a, $ff
-.done
+	jr c, .max
+
 	ld b, a
 	ret
 
-MoonBallMultiplier:
-; Multiply catch rate by 4 if mon evolves with moon stone
-	push de
-	push bc
-	ld a, [wTempEnemyMonSpecies]
-	call GetPokemonIndexFromID
-	ld b, h
-	ld c, l
-	ld hl, EvosAttacksPointers
-	ld a, BANK(EvosAttacksPointers)
-	call LoadDoubleIndirectPointer
-
-	ld a, [wCurItem]
-	ld c, a
-	push hl
-	ld hl, MOON_STONE
-	call GetItemIDFromIndex
-	pop hl
-	ld [wCurItem], a
-	ld d, h
-	ld e, l
-	farcall DetermineEvolutionItemResults
-	ld a, c
-	ld [wCurItem], a
-	ld a, d
-	or e
-	pop bc
-	pop de
-	ret z
-
-	sla b
-	jr c, .max
-	sla b
-	ret nc
 .max
 	ld b, $ff
 	ret
