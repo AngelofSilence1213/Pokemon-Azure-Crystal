@@ -7,9 +7,6 @@ For a full list of features see [Features.md](Features.md)
 
 * 60fps Overworld & CGB Doublespeed Mode
 * running shoes
+* Pokemon no longer lose HP from poisoning in the overworld
 
 ## Credits
-
-Tom Wang Chris running sprites
-
-Seasick Kris running sprites
