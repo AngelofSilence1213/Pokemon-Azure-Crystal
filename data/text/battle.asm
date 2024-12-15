@@ -609,7 +609,7 @@ RageBuildingText:
 
 GotAnEncoreText:
 	text "<TARGET>"
-	line "got an Encore!"
+	line "got an encore!"
 	prompt
 
 SharedPainText:
