@@ -1,30 +1,12 @@
 HueyAnswerPhoneText:
-	text "Yeah, this is"
-	line "@"
-	text_ram wStringBuffer3
-	text "."
-
-	para "Huh? What's up,"
-	line "<PLAYER>?"
-	done
-
 HueyAnswerPhoneDayText:
-	text "Yeah, this is"
-	line "@"
-	text_ram wStringBuffer3
-	text "."
-
-	para "Huh? What's up"
-	line "<PLAYER>?"
-	done
-
 HueyAnswerPhoneNiteText:
 	text "Yeah, this is"
 	line "@"
 	text_ram wStringBuffer3
 	text "."
 
-	para "Huh? What's up"
+	para "Huh? What's up,"
 	line "<PLAYER>?"
 	done
 
