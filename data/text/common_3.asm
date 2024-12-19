@@ -601,22 +601,12 @@ _PhoneJustTalkToThemText::
 	done
 
 _PasswordAskResetText::
-	text "Password OK."
-	line "Select Continue &"
-	cont "reset settings."
-	prompt
-
-_PasswordWrongText::
-	text "Wrong password!"
+	text "Select Continue &"
+	line "reset settings."
 	prompt
 
 _PasswordAskResetClockText::
 	text "Reset the clock?"
-	done
-
-_PasswordAskEnterText::
-	text "Please enter the"
-	line "password."
 	done
 
 _ClearAllSaveDataText::
