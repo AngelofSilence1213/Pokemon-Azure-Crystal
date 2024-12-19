@@ -3964,7 +3964,7 @@ BattleCommand_BurnTarget:
 	and $7f
 	ret z
 	ld a, FIRE ; Don't burn a Fire-type
-+	call CheckIfTargetIsGivenType
+	call CheckIfTargetIsGivenType
 	ret z
 	call GetOpponentItem
 	ld a, b
@@ -4031,7 +4031,7 @@ BattleCommand_FreezeTarget:
 	cp WEATHER_SUN
 	ret z
 	ld a, ICE ; Don't freeze an Ice-type
-+	call CheckIfTargetIsGivenType
+	call CheckIfTargetIsGivenType
 	ret z
 	call GetOpponentItem
 	ld a, b
