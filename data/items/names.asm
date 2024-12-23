@@ -76,7 +76,7 @@ ItemNames::
 	li "Teru-sama"    ; 004A
 	li "Amulet Coin"  ; 004B
 	li "Ylw Apricorn" ; 004C
-	li "Grn ApricorN" ; 004D
+	li "Grn Apricorn" ; 004D
 	li "Cleanse Tag"  ; 004E
 	li "Mystic Water" ; 004F
 	li "TwistedSpoon" ; 0050
