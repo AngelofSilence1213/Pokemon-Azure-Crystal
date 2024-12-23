@@ -1277,7 +1277,7 @@ Pokedex_DrawDexEntryScreenBG:
 .Weight:
 	db "WT   ???lb", -1
 .MenuItems:
-	db $3b, " PAGE AREA CRY PRNT", -1
+	db $3b, " Page Area Cry Prnt", -1
 
 Pokedex_DrawOptionScreenBG:
 	call Pokedex_FillBackgroundColor2
@@ -1301,16 +1301,16 @@ Pokedex_DrawOptionScreenBG:
 	jmp PlaceString
 
 .Title:
-	db $3b, " OPTION ", $3c, -1
+	db $3b, " Option ", $3c, -1
 
 .Modes:
-	db   "NEW #DEX MODE"
-	next "OLD #DEX MODE"
-	next "A to Z MODE"
+	db   "New #dex Mode"
+	next "Old #dex Mode"
+	next "A to Z Mode"
 	db   "@"
 
 .UnownMode:
-	db "UNOWN MODE@"
+	db "Unown Mode@"
 
 Pokedex_DrawSearchScreenBG:
 	call Pokedex_FillBackgroundColor2
@@ -1334,19 +1334,19 @@ Pokedex_DrawSearchScreenBG:
 	jmp PlaceString
 
 .Title:
-	db $3b, " SEARCH ", $3c, -1
+	db $3b, " Search ", $3c, -1
 
 .TypeLeftRightArrows:
 	db $3d, "        ", $3e, -1
 
 .Types:
-	db   "TYPE1"
-	next "TYPE2"
+	db   "Type1"
+	next "Type2"
 	db   "@"
 
 .Menu:
-	db   "BEGIN SEARCH!!"
-	next "CANCEL"
+	db   "Begin Search!!"
+	next "Cancel"
 	db   "@"
 
 Pokedex_DrawSearchResultsScreenBG:
@@ -1378,9 +1378,9 @@ Pokedex_DrawSearchResultsScreenBG:
 	jmp Pokedex_PlaceFrontpicTopLeftCorner
 
 .BottomWindowText:
-	db   "SEARCH RESULTS"
-	next "  TYPE"
-	next "    FOUND!"
+	db   "Search Results"
+	next "  Type"
+	next "    found!"
 	db   "@"
 Pokedex_PlaceSearchResultsTypeStrings:
 	ld a, [wDexSearchMonType1]
@@ -1945,7 +1945,7 @@ Pokedex_DisplayModeDescription:
 	next "alphabetically.@"
 
 .UnownMode:
-	db   "UNOWN are listed"
+	db   "Unown are listed"
 	next "in catching order.@"
 
 Pokedex_DisplayChangingModesMessage:
