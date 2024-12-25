@@ -259,7 +259,7 @@ EarlsPokemonAcademyYoungster2Text:
 
 	para "It sure is tough"
 	line "taking notes…"
-	doneor
+	done
 
 AcademyBlackboardText:
 	text "The blackboard"

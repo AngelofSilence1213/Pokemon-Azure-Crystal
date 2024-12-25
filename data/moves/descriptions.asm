@@ -626,7 +626,6 @@ PsychicMDescription:
 ShadowBallDescription:
 	db   "An attack that may"
 	next "lower Sp.Def.@"
-s
 
 MeditateDescription:
 SharpenDescription:

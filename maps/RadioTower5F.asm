@@ -392,7 +392,7 @@ RadioTower5FDirectorText:
 	para "You know, I love"
 	line "#mon."
 
-i	para "I built this Radio"
+	para "I built this Radio"
 	line "Tower so I could"
 
 	para "express my love"
