@@ -87,7 +87,7 @@ StringOptions:
 	db "Menu Account<LF>"
 	db "        :<LF>"
 	db "Frame<LF>"
-	db "        :TYPE<LF>"
+	db "        :Type<LF>"
 	db "Cancel@"
 
 GetOptionPointer:

@@ -1,3 +1,4 @@
+
 BrentAnswerPhoneText:
 BrentAnswerPhoneDayText:
 BrentAnswerPhoneNiteText:
@@ -9,13 +10,13 @@ BrentAnswerPhoneNiteText:
 	line "can I do for you?"
 	done
 
-BrentGreetText
+BrentGreetText:
 BrentGreetDayText:
 BrentGreetNiteText:
-	text "Hiya, <PLAYER>. How"
+	text "Hiya, <PLAYER>, how"
 	line "are you doing?"
 
-	para "Hey! It's me,"
+	para "Hey, it's me,"
 	line "@"
 	text_ram wStringBuffer3
 	text "."
