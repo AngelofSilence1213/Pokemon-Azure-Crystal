@@ -2845,31 +2845,7 @@ wMountMoonSquareSceneID::                         db
 wMobileTradeRoomSceneID::                         db
 wMobileBattleRoomSceneID::                        db
 
-; fight counts
-wJackFightCount::    db
-wHueyFightCount::    db
-wGavenFightCount::   db
-wBethFightCount::    db
-wJoseFightCount::    db
-wReenaFightCount::   db
-wJoeyFightCount::    db
-wWadeFightCount::    db
-wRalphFightCount::   db
-wLizFightCount::     db
-wAnthonyFightCount:: db
-wToddFightCount::    db
-wGinaFightCount::    db
-wArnieFightCount::   db
-wAlanFightCount::    db
-wDanaFightCount::    db
-wChadFightCount::    db
-wTullyFightCount::   db
-wBrentFightCount::   db
-wTiffanyFightCount:: db
-wVanceFightCount::   db
-wWiltonFightCount::  db
-wParryFightCount::   db
-wErinFightCount::    db
+ds 25
 
 wEventFlags:: flag_array NUM_EVENTS
 
