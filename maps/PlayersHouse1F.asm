@@ -77,7 +77,7 @@ MeetMomScript:
 	 sjump .FinishPhone
 
 .FinishPhone:
-	 EVENT_TEMPORARY_UNTIL_MAP_RELOAD_1
+	 checkevent EVENT_TEMPORARY_UNTIL_MAP_RELOAD_1
 	iftrue .FromRight
 	checkevent EVENT_TEMPORARY_UNTIL_MAP_RELOAD_2
 	iffalse .FromLeft
