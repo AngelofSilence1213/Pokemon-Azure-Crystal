@@ -64,21 +64,20 @@ MeetMomScript:
 	writetext ComeHomeForDSTText
 	yesorno
 	iffalse .ExplainPhone
-; fallthrough
+	sjump .KnowPhone
+
 .KnowPhone:
 	writetext KnowTheInstructionsText
 	promptbutton
-	sjump .FinishPhone
+	 sjump .FinishPhone
 
 .ExplainPhone:
 	writetext DontKnowTheInstructionsText
 	promptbutton
-; fallthrough
+	 sjump .FinishPhone
+
 .FinishPhone:
-	writetext InstructionsNextText
-	waitbutton
-	closetext
-	checkevent EVENT_TEMPORARY_UNTIL_MAP_RELOAD_1
+	 EVENT_TEMPORARY_UNTIL_MAP_RELOAD_1
 	iftrue .FromRight
 	checkevent EVENT_TEMPORARY_UNTIL_MAP_RELOAD_2
 	iffalse .FromLeft
