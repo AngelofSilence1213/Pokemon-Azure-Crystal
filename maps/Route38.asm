@@ -219,7 +219,6 @@ TrainerSchoolboyChad1:
 	loadtrainer SCHOOLBOY, CHAD4
 	startbattle
 	reloadmapafterbattle
-	loadmem wChadFightCount, 4
 	clearflag ENGINE_CHAD_READY_FOR_REMATCH
 	end
 
