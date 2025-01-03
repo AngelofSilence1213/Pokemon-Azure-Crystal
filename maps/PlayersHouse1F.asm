@@ -70,10 +70,12 @@ MeetMomScript:
 	writetext KnowTheInstructionsText
 	promptbutton
 	 sjump .FinishPhone
+	closetext
 
 .ExplainPhone:
 	writetext DontKnowTheInstructionsText
 	promptbutton
+	closetext
 	 sjump .FinishPhone
 
 .FinishPhone:
