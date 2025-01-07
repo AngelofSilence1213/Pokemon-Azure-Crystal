@@ -30,7 +30,7 @@ VioletMartGrannyText:
 	cont "strong."
 
 	para "It's important to"
-	line "treat #t with"
+	line "treat #mon with"
 	cont "love."
 	done
 
