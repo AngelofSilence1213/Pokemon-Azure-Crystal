@@ -19,6 +19,7 @@
 
 * Lure Ball has a 4x catch rate modifier like in gen VIII.
 * Moon Ball has a 3x catch rate modifier at nightime or in caves.
+* TMs are reusable.
 
 ## Difficulty
 
