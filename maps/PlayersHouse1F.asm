@@ -340,7 +340,7 @@ NeighborText:
 	para "My daughter is"
 	line "adamant about"
 
-	para "becoming Prpf."
+	para "becoming Prof."
 	line "Elm's assistant."
 
 	para "She really loves"
