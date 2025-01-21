@@ -1458,7 +1458,7 @@ CooltrainerFGroup:
 	db -1 ; end
 
 	next_list_item ; COOLTRAINERF (2)
-	db "LOIS@", TRAINERTYPE_MOVES
+	db "Lois@", TRAINERTYPE_MOVES
 	db 25
 	dw SKIPLOOM
 	dw SYNTHESIS, POISONPOWDER, MEGA_DRAIN, LEECH_SEED
@@ -1468,7 +1468,7 @@ CooltrainerFGroup:
 	db -1 ; end
 
 	next_list_item ; COOLTRAINERF (3)
-	db "FRAN@", TRAINERTYPE_NORMAL
+	db "Fran@", TRAINERTYPE_NORMAL
 	db 37
 	dw SEADRA
 	db -1 ; end
@@ -1597,7 +1597,7 @@ CooltrainerFGroup:
 	db -1 ; end
 
 	next_list_item ; COOLTRAINERF (18)
-	db "BETH@", TRAINERTYPE_ITEM_MOVES
+	db "Beth@", TRAINERTYPE_ITEM_MOVES
 	db 43
 	dw RAPIDASH
 	dw FOCUS_BAND
